@@ -1,0 +1,17 @@
+.container
+{
+background-color: rgb(243, 171, 201);
+height:20em;
+width:20em;
+padding: 50px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+}
+
+button{
+  text-align: center;
+}
