@@ -1,30 +1,34 @@
-body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 20px;
-  background-color: white;
-}
-
-h1 {
-  margin-bottom: 30px;
-}
-
-#colour {
+.buttons
+{
   display: flex;
-  justify-content: center;
-  gap: 20px; /* space between buttons */
+  justify-content: space-between;
+  flex-wrap:wrap;
+  
 }
 
-.button {
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  border-radius: 10px;
-  border: 2px solid black;
+.buttons span{
+color: white;
+border: 2px solid black;
+padding:60px 40px;
+cursor:pointer;
 }
 
-#red { background: red; }
-#blue { background: blue; }
-#yellow { background: yellow; }
-#green { background: green; }
+
+
+#red{
+  background-color: red;
+ 
+}
+#yellow{
+  background-color: yellow;
+  color:black;
+  
+}
+#green{
+  background-color: green;
+  
+}
+#blue{
+  background-color: blue;
+ 
+}
